@@ -1,0 +1,98 @@
+#API call for adding two numbers
+
+###
+POST http://localhost:8000/addition/
+Content-Type: application/json
+
+{
+    "num1": 400,
+    "num2": 100
+}
+
+#API call for substracting two numbers
+###
+POST http://localhost:8000/subtraction/
+Content-Type: application/json
+
+{
+    "num1" : 1000,
+    "num2" : 500
+}
+
+###
+POST http://localhost:8000/multiplication/
+Content-Type: application/json
+
+{
+    "num1" : 100,
+    "num2" : 5
+}
+
+###
+POST http://localhost:8000/division/
+Content-Type: application/json
+
+{
+    "num1" : 1000,
+    "num2" : 2
+}
+
+###
+POST http://localhost:8000/modulus/
+Content-Type: application/json
+
+{
+    "num1" : 10,
+    "num2" : 8
+}
+
+#API claa for calculate percentage
+###
+POST http://localhost:8000/percentage/
+Content-Type: application/json
+
+{
+    "obtained_marks" : 400,
+    "total_marks" : 500
+}
+# API call fro calculaing the bmi
+###
+POST http://localhost:8000/bmi/
+Content-Type: application/json
+
+{
+    "weight" : 70,
+    "height" : 175
+}
+
+# API call for calculating age
+###
+POST http://localhost:8000/age/
+Content-Type: application/json
+
+{
+    "birth_year" : 2019,
+    "current_year" : 2026
+}
+
+
+# API call for calculate interest
+###
+POST http://localhost:8000/simple-interest/
+Content-Type: application/json
+
+{
+    "principal" : 10000,
+    "rate"  : 5,
+    "time"  : 2
+}
+
+# API call for calculate Electricity
+###
+POST http://localhost:8000/electricity-bill/
+Content-Type: application/json
+
+{
+    "units" : 150,
+    "rate"  : 6
+}
